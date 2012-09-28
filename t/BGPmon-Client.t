@@ -5,7 +5,7 @@
 
 # change 'tests => 1' to 'tests => last_test_to_print';
 
-use Test::More;
+use Test::More skip_all => 'Personal use';
 BEGIN { use_ok('BGPmon::Client') };
 use_ok('BGPmon::Client');
 #########################

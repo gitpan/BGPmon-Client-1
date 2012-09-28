@@ -1,5 +1,7 @@
 #!/usr/bin/perl
-
+BEGIN{
+        our $VERSION = '1.02';
+};
 use strict;
 use BGPmon::Client;
 use BGPmon::Client::ParseTable;
