@@ -1,6 +1,6 @@
 #!/usr/bin/perl
 BEGIN{
-        our $VERSION = '1.02';
+        our $VERSION = '1.03';
 };
 use strict;
 use BGPmon::Client;
